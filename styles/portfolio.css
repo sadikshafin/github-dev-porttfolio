@@ -34,6 +34,7 @@
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    background-color: #FFF8F3
 }
 /*nave style*/
 
@@ -93,4 +94,44 @@ nav li a {
 .banner-image{
     width: 584px;
     height: 676px;
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.about{
+    background-color: #FFF8F3
+    border-radius: 10px;
+    padding: 130px 140px;
+    margin: 150px;
+    text-align: center;
+    
+}
+
+.about-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+}
+
+
+.about-content{
+    font-size: 20px;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
